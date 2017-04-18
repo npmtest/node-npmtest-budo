@@ -180,7 +180,7 @@
 <tspan x="10" y="2842">  │   │ └── signal-exit@3.0.2 </tspan>
 <tspan x="10" y="2858">  │   ├── map-obj@1.0.1 </tspan>
 <tspan x="10" y="2874">  │   ├─┬ normalize-package-data@2.3.6 </tspan>
-<tspan x="10" y="2890">  │   │ ├── hosted-git-info@2.4.1 </tspan>
+<tspan x="10" y="2890">  │   │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="2906">  │   │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="2922">  │   │ │ └── builtin-modules@1.1.1 </tspan>
 <tspan x="10" y="2938">  │   │ ├── semver@5.3.0 </tspan>
@@ -210,7 +210,7 @@
 <tspan x="10" y="3322">  │   └── trim-newlines@1.0.0 </tspan>
 <tspan x="10" y="3338">  ├─┬ micromatch@2.3.11 </tspan>
 <tspan x="10" y="3354">  │ ├─┬ arr-diff@2.0.0 </tspan>
-<tspan x="10" y="3370">  │ │ └── arr-flatten@1.0.1 </tspan>
+<tspan x="10" y="3370">  │ │ └── arr-flatten@1.0.3 </tspan>
 <tspan x="10" y="3386">  │ ├── array-unique@0.2.1 </tspan>
 <tspan x="10" y="3402">  │ ├─┬ braces@1.8.5 </tspan>
 <tspan x="10" y="3418">  │ │ ├─┬ expand-range@1.8.2 </tspan>
