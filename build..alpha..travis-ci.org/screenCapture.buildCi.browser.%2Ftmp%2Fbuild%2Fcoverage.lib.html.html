@@ -1,5 +1,5 @@
 <html lang="en"><head>
-    <title>Code coverage report for node-npmtest-budo/node_modules/budo/lib/map-entry.js</title>
+    <title>Code coverage report for node-npmtest-budo/node_modules/budo/bin/bundle-livereload-client.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,23 +192,23 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-budo">npmtest-budo (v0.0.2)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-budo/node_modules/budo/lib/map-entry.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-budo/node_modules/budo/bin/bundle-livereload-client.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">25% <small>(6 / 24)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">21.43% <small>(6 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">0% <small>(0 / 12)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 10)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 6)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
         Lines: <span class="metric">25% <small>(6 / 24)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-budo/node_modules/budo/lib/</a> » map-entry.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-budo/node_modules/budo/bin/</a> » bundle-livereload-client.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -250,31 +250,10 @@
 36
 37
 38
-39
-40
-41
-42
-43
-44
-45</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+39</td><td class="line-coverage"><span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -282,14 +261,16 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -300,55 +281,56 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var path = require('path')
-var url = require('url')
-var resolve = require('resolve')
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var browserify = require('browserify')
+var path = require('path')
+var fs = require('fs')
+var UglifyJS = require('uglify-js')
 &nbsp;
-module.exports = mapEntry
-<span class="fstat-no" title="function not covered">function mapEntry (file) {</span>
-<span class="cstat-no" title="statement not covered">  if (file === '.') {</span>
-<span class="cstat-no" title="statement not covered">    file = entry()</span>
-  }
+<span class="cstat-no" title="statement not covered">var buildFolder = path.resolve(__dirname, '..', 'build')</span>
+<span class="cstat-no" title="statement not covered">var buildFile = path.resolve(buildFolder, 'bundled-livereload-client.js')</span>
+<span class="cstat-no" title="statement not covered">var clientFile = path.resolve(__dirname, '..', 'lib', 'reload', 'client.js')</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">  var parts</span>
-  // absolute path with letter drive, eg C:/
-<span class="cstat-no" title="statement not covered">  if (/^[A-Z]:[/\\]+/.test(file)) {</span>
-<span class="cstat-no" title="statement not covered">    parts = file.split(/:(?:(?=[^/\\]))/)</span>
-  } else {
-<span class="cstat-no" title="statement not covered">    parts = file.split(':')</span>
-  }
-&nbsp;
-<span class="cstat-no" title="statement not covered">  var pathFrom, pathUrl</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">  if (parts.length &gt; 1 &amp;&amp; parts[1].length &gt; 0) {</span>
-<span class="cstat-no" title="statement not covered">    pathFrom = parts[0]</span>
-<span class="cstat-no" title="statement not covered">    pathUrl = parts[1]</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">    if (pathFrom === '.') {</span>
-<span class="cstat-no" title="statement not covered">      pathFrom = entry()</span>
+<span class="cstat-no" title="statement not covered">mkdir(buildFolder, <span class="fstat-no" title="function not covered">function (err) {</span></span>
+<span class="cstat-no" title="statement not covered">  if (err) <span class="cstat-no" title="statement not covered">return error(err)</span></span>
+<span class="cstat-no" title="statement not covered">  browserify().add(clientFile).bundle(<span class="fstat-no" title="function not covered">function (err, src) {</span></span>
+<span class="cstat-no" title="statement not covered">    if (err) <span class="cstat-no" title="statement not covered">return error(err)</span></span>
+<span class="cstat-no" title="statement not covered">    var result</span>
+<span class="cstat-no" title="statement not covered">    try {</span>
+<span class="cstat-no" title="statement not covered">      result = UglifyJS.minify(src.toString(), { fromString: true }).code</span>
+    } catch (err) {
+<span class="cstat-no" title="statement not covered">      return error(err)</span>
     }
-  } else {
-<span class="cstat-no" title="statement not covered">    pathFrom = file</span>
-<span class="cstat-no" title="statement not covered">    pathUrl = url.parse(path.basename(pathFrom)).pathname</span>
-  }
+<span class="cstat-no" title="statement not covered">    fs.writeFile(buildFile, result, <span class="fstat-no" title="function not covered">function (err) {</span></span>
+<span class="cstat-no" title="statement not covered">      if (err) <span class="cstat-no" title="statement not covered">error(err)</span></span>
+    })
+  })
+})
 &nbsp;
-<span class="cstat-no" title="statement not covered">  return {</span>
-    url: pathUrl,
-    from: pathFrom
-  }
+<span class="fstat-no" title="function not covered">function mkdir (path, cb) {</span>
+<span class="cstat-no" title="statement not covered">  fs.mkdir(path, <span class="fstat-no" title="function not covered">function (err) {</span></span>
+<span class="cstat-no" title="statement not covered">    if (err &amp;&amp; err.code === 'EEXIST') <span class="cstat-no" title="statement not covered">err = null</span></span>
+<span class="cstat-no" title="statement not covered">    cb(err)</span>
+  })
 }
 &nbsp;
-<span class="fstat-no" title="function not covered">function entry () {</span>
-<span class="cstat-no" title="statement not covered">  var cwd = process.cwd()</span>
-<span class="cstat-no" title="statement not covered">  var file = resolve.sync('.', { basedir: cwd })</span>
-<span class="cstat-no" title="statement not covered">  return file || 'index.js'</span>
+<span class="fstat-no" title="function not covered">function error (err) {</span>
+<span class="cstat-no" title="statement not covered">  console.error('ERROR: Could not bundle LiveReload client, budo ' +</span>
+    'will fall back to browserifying it on the fly.')
+<span class="cstat-no" title="statement not covered">  console.error(err)</span>
 }
 &nbsp;
 &nbsp;</pre></td></tr>
 </tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 18 2017 20:43:58 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 25 2017 20:57:20 GMT+0000 (UTC)</div>
 </div>
 
 
